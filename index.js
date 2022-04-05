@@ -37,7 +37,7 @@ function meuEscopo () {
     }
 
     form.addEventListener('submit', recebeEventoForm)
-}
+} 
 
 
 meuEscopo();
