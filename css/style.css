@@ -1,0 +1,135 @@
+body {
+    background-color: var(--bs-white);
+}
+
+/* Navegação */
+
+.navbar-brand:hover{
+    opacity: 0.50;
+}
+
+/* Sessão Inicial */
+
+.imagem__menu-saude {
+    width: 55%;
+}
+
+.imagem__menu-saude:hover { 
+opacity: 0.90;
+
+}
+
+/* Botão da sessão inicial (Dicas/Calculo IMC) */
+
+.nav__imc {
+    color: var(--bs-black);
+}
+
+.nav__imc:hover {
+    color: white;
+}
+
+.botoes__menu-saude {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Sessão notícias */
+
+.card-img-top {
+    padding: 20px;
+}
+
+/* Sessão IMC */
+
+.criadores__container {
+    background-color: #03574b;
+    color: var(--bs-white);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.imagem__imc {
+    width: 50%;
+}
+
+/* Sessão Receitas */
+.campo__email {
+    margin-left: 50px;
+}
+
+.form-control, .botao__enviar {
+    border-radius: 0px;
+}
+
+/* Sessão Footer */
+
+.footer__pagina {
+    background-color: #03574b;
+}
+
+.footer__texto {
+    color: var(--bs-white);
+    text-align: center;
+}
+
+@media only screen and (max-width: 920px) {
+
+.menu__saude {
+flex-wrap: wrap;
+}
+
+.botoes__menu-saude {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.imagem__menu-saude {
+    margin-top: 3rem;
+}
+
+
+.noticias__saude {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.noticias__saude:last-child {
+    
+}
+
+.menu__aprendendo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botoes__saude {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+
+#CalculadoraIMC{
+flex-direction: column;
+flex-wrap: wrap;
+align-self: center;
+
+}
+
+.hide {
+    display: none;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+}

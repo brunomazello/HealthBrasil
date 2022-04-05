@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>HealthBrasil - Saúde é por aqui!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand m-3 ps-5" href="#"><img src="./img/healthbrasil.png" alt=""></a>
+            <div class="d-flex justify-content-between">
+                <li class="nav-item list-unstyled">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 pe-5">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Receitas">Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div class="d-flex align-items-center justify-content-around mt-xxl-5 m-xxl-5 bg-li mt-3 menu__saude">
+                <div class="ps-5">
+                    <p class="display-4 bold text-center text-success">Como anda sua saúde?</p>
+                    <p class="lead text-center fs-5 text-center">As melhores dicas de saúde para você se manter em
+                        equilíbrio com a vida.</p>
+                    <p class="lead text-center fs-5">Não deixe para depois o que você pode começar agora!</p>
+                    <div class=" align-items-center d-flex mt-4 botoes__menu-saude">
+                        <div class="botoes__menu-saude"><button class="btn btn-success col-9 mx-auto">Veja as dicas</button></div>
+                        <div class="botoes__menu-saude"><button class="col-9 mx-auto btn btn-outline-success"><a href="#CalculadoraIMC"
+                                class="nav__imc text-decoration-nones text-decoration-none nav__imc">Calcule seu IMC</a></button></div>
+                    </div>
+                </div>
+                <img src="img/personal.svg" alt="" class="imagem__menu-saude">
+            </div>
+        </section>
+        <section class="bg-light">
+            <div class="d-flex align-items-center justify-content-between noticias__saude m-5 p-5 px-3">
+                <div class="card mx-3" style="width: 18rem;">
+                    <img src="img/habito1.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                        <a href="#" class="btn btn-success">Lorem Ipsum</a>
+                    </div>
+                </div>
+                <div class="card mx-3" style="width: 18rem;">
+                    <img src="img/habito2.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                        <a href="#" class="btn btn-success">Lorem Ipsum</a>
+                    </div>
+                </div>
+                <div class="card mx-3" style="width: 18rem;">
+                    <img src="img/habito3.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                        <a href="#" class="btn btn-success">Lorem Ipsum</a>
+                    </div>
+                </div>
+                <div class="card mx-3" style="width: 18rem;">
+                    <img src="img/habito4.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem Ipsum</h5>
+                        <p class="card-text">Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                        <a href="#" class="btn btn-success">Lorem Ipsum</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="criadores__container">
+            <div class="d-flex align-items-center justify-content-around mt-xxl-5 m-xxl-5 bg-li"
+                id="CalculadoraIMC">
+                <img src="img/praticando_exercicios.svg" alt="" class="imagem__imc p-5">
+                <div>
+
+                    <div class="d-flex mb-5 mt-0 justify-content-center">
+                        <form action="" method="get" class="form">
+                            <p class="text-center mb-0 fs-4 fw-bold mt-3">Calcule seu IMC</p>
+                            <label for="input-peso" class=""></label>
+                            <input type="text" class="form-control input-peso" id="exampleFormControlInput1"
+                                placeholder="Quilos">
+
+                            <label for="input-altura" class=""></label>
+                            <input type="text" class="form-control input-altura" id="exampleFormControlInput1"
+                                placeholder="Altura">
+                            <button class="btn btn-success col-5 mx-5 botao__treinamento mt-4">Calcular</button>
+                        </form>
+                        <div class="resultado"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex" id="Receitas">
+            <div class="d-flex align-items-center justify-content-around m-5 bg-li">
+                <div>
+                    <p class="display-4 bold ps-5 pb-0" id="Receitas">A alimentação faz parte do processo saudável.</p>
+                    <p class="lead ps-5 pt-3 mb-3">A prática da atividade física traz o alívio do estresse, tão
+                        comum nos dias de hoje,
+                        melhora a memória e diminui a insegurança e a ansiedade.
+                    </p>
+                    <p class="lead mb-3 ps-5">Insira seu email e receba nossas receitas!</p>
+                    <form class="formulario__receitas w-75 mt-0">
+                        <div class="mb-3 d-flex align-items-center campo__email">
+                            <label for="" class="form-label"></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                            <button class="btn btn-success botao__enviar">Enviar</button>
+                        </div>
+
+                    </form>
+                </div>
+                <img src="img/cooking.svg" alt="" class="imagem__menu-saude hide">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__pagina">
+            <p class="footer__texto p-5">Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="/js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
