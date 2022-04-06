@@ -38,9 +38,9 @@
     </nav>
     <main>
         <section>
-            <div class="d-flex align-items-center justify-content-around mt-xxl-5 m-xxl-5 bg-li mt-3 menu__saude">
-                <div class="ps-5">
-                    <p class="display-4 bold text-center text-success">Como anda sua saúde?</p>
+            <div class="d-flex align-items-center justify-content-around bg-li menu__saude ms-3">
+                <div class="p-3">
+                    <p class="display-4 text-center text-success">Como anda sua saúde?</p>
                     <p class="lead text-center fs-5 text-center">As melhores dicas de saúde para você se manter em
                         equilíbrio com a vida.</p>
                     <p class="lead text-center fs-5">Não deixe para depois o que você pode começar agora!</p>
@@ -50,12 +50,12 @@
                                 class="nav__imc text-decoration-nones text-decoration-none nav__imc">Calcule seu IMC</a></button></div>
                     </div>
                 </div>
-                <img src="img/personal.svg" alt="" class="imagem__menu-saude">
+                <img src="img/personal.svg" alt="" class="imagem__menu-saude mt-5 mb-5">
             </div>
         </section>
-        <section class="bg-light">
-            <div class="d-flex align-items-center justify-content-between noticias__saude m-5 p-5 px-3">
-                <div class="card mx-3" style="width: 18rem;">
+        <section class="bg-light p-0">
+            <div class="d-flex align-items-center justify-content-between noticias__saude ms-3 p-5">
+                <div class="card mx-3 p-1" style="width: 18rem;">
                     <img src="img/habito1.svg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Lorem Ipsum</h5>
@@ -90,9 +90,9 @@
             </div>
         </section>
         <section class="criadores__container">
-            <div class="d-flex align-items-center justify-content-around mt-xxl-5 m-xxl-5 bg-li"
+            <div class="d-flex align-items-center justify-content-between bg-li"
                 id="CalculadoraIMC">
-                <img src="img/praticando_exercicios.svg" alt="" class="imagem__imc p-5">
+                <img src="img/praticando_exercicios.svg" alt="" class="w-75 mt-5 mb-5">
                 <div>
 
                     <div class="d-flex mb-5 mt-0 justify-content-center">
@@ -105,8 +105,10 @@
                             <label for="input-altura" class=""></label>
                             <input type="text" class="form-control input-altura" id="exampleFormControlInput1"
                                 placeholder="Altura">
-                            <button class="btn btn-success col-5 mx-5 botao__treinamento mt-4">Calcular</button>
-                        </form>
+                            <div class="d-flex justify-content-around">
+                                <button class="btn btn-success col-5 botao__treinamento mt-4">Calcular</button>
+                            </div>
+                            </form>
                         <div class="resultado"></div>
                     </div>
                 </div>
